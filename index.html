@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eliminación de cuenta — Jesús María Conecta</title>
+  <style>
+    :root{
+      --primary:#0b3a75; /* azul institucional aproximado */
+      --accent:#e91e63;  /* rosa institucional aproximado */
+      --bg:#f7f8fb;
+      --text:#212529;
+      --muted:#6c757d;
+      --card:#ffffff;
+      --radius:18px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+      color:var(--text);
+      background:var(--bg);
+      line-height:1.6;
+    }
+    header{
+      background:linear-gradient(135deg, var(--primary), #173f8a 60%);
+      color:#fff;
+      padding:28px 18px;
+    }
+    .wrap{max-width:960px; margin:0 auto; padding:0 16px;}
+    .brand{
+      display:flex; align-items:center; gap:14px;
+    }
+    .brand img{height:56px; width:auto; border-radius:10px; background:#fff; padding:4px}
+    .brand h1{margin:0; font-size: clamp(20px, 3vw, 28px); font-weight:700;}
+    .subtitle{margin:6px 0 0; color:#e6ecff; font-size:14px}
+    main{padding:26px 0 42px;}
+    .card{
+      background:var(--card);
+      border-radius:var(--radius);
+      box-shadow:0 6px 24px rgba(13, 25, 54, 0.08);
+      padding:22px;
+      margin:16px 0;
+    }
+    h2{color:var(--primary); margin-top:0}
+    ol{padding-left:18px}
+    .notice{
+      border-left:4px solid var(--accent);
+      background:#fff3f7;
+      padding:12px 14px;
+      border-radius:12px;
+      color:#9c0b3a;
+    }
+    .meta{color:var(--muted); font-size:14px}
+    footer{padding:28px 18px; color:#fff; background:var(--primary);}
+    a{color:var(--primary); text-decoration: none; border-bottom:1px dotted currentColor}
+    a:hover{opacity:.85}
+    .pill{
+      display:inline-block; background:var(--primary); color:#fff; padding:4px 10px; border-radius:999px; font-size:12px
+    }
+    .grid{display:grid; gap:16px; grid-template-columns: 1fr}
+    @media (min-width: 720px){
+      .grid{grid-template-columns: 1fr 1fr}
+    }
+    ul{margin:0 0 0 18px}
+    .contact{
+      display:flex; gap:10px; align-items:center;
+      padding:12px 14px; border:1px dashed #dfe6f2; border-radius:12px; background:#fafcff
+    }
+    code{background:#f1f3f8; padding:2px 6px; border-radius:6px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="brand">
+        <!-- Reemplaza src con la URL del escudo/logo del municipio si lo deseas -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg" alt="Logo Jesús María" />
+        <div>
+          <h1>Eliminación de cuenta — Jesús María Conecta</h1>
+          <p class="subtitle">Solicitud para borrar tu cuenta y datos personales asociados a la app móvil</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="card">
+      <p><span class="pill">Desarrollador</span> Municipio de Jesús María (Aguascalientes, México)</p>
+      <p>Esta página permite a las personas usuarias solicitar la <strong>eliminación de su cuenta</strong> y de los <strong>datos personales</strong> asociados a la aplicación <strong>Jesús María Conecta</strong>.</p>
+      <div class="contact">
+        <strong>Correo de contacto:</strong> <a href="mailto:jesusmariaconecta@gmail.com">jesusmariaconecta@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="grid">
+      <section class="card">
+        <h2>Pasos para solicitar la eliminación</h2>
+        <ol>
+          <li>Envía un correo a <a href="mailto:jesusmariaconecta@gmail.com">jesusmariaconecta@gmail.com</a> con el asunto <strong>“Eliminar cuenta”</strong>.</li>
+          <li>Indica tu <strong>nombre completo</strong> y el <strong>correo electrónico</strong> con el que registraste tu cuenta.</li>
+          <li>Si tienes un <strong>folio</strong> o identificador de usuario, inclúyelo para agilizar el proceso (opcional).</li>
+          <li>Te confirmaremos la recepción y procesaremos tu solicitud en un máximo de <strong>15 días hábiles</strong>.</li>
+        </ol>
+      </section>
+
+      <section class="card">
+        <h2>Datos que se eliminarán</h2>
+        <ul>
+          <li>Nombre completo</li>
+          <li>Correo electrónico</li>
+          <li>Teléfono</li>
+          <li>CURP</li>
+          <li>Credenciales de acceso (usuario/contraseña)</li>
+          <li>Reportes o incidencias asociadas a tu cuenta (cuando sea posible conforme a la normativa aplicable)</li>
+        </ul>
+        <p class="meta">Nota: algunos registros <em>anonimizados</em> o estadísticos pueden conservarse sin identificación personal por obligaciones legales o fines de auditoría.</p>
+      </section>
+    </div>
+
+    <section class="card">
+      <h2>Verificación de identidad</h2>
+      <p>Para proteger tu privacidad, podríamos solicitar información adicional que permita confirmar que eres titular de la cuenta.</p>
+    </section>
+
+    <section class="card">
+      <h2>Retención y plazos</h2>
+      <ul>
+        <li>Atención de solicitudes: hasta <strong>15 días hábiles</strong> desde su recepción.</li>
+        <li>Retención mínima: cuando aplique, se conservará la información estrictamente necesaria y por el tiempo indispensable para cumplir obligaciones legales o resolver disputas.</li>
+      </ul>
+    </section>
+
+    <section class="card notice">
+      <p><strong>Importante:</strong> esta página es exclusiva para la eliminación de la <em>cuenta dentro de la app Jesús María Conecta</em>. No gestiona trámites municipales independientes (por ejemplo, pagos de servicios, licencias, etc.).</p>
+    </section>
+
+    <p class="meta">Última actualización: 23 de octubre de 2025</p>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>© Municipio de Jesús María. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
