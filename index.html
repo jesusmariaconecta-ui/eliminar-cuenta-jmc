@@ -29,9 +29,8 @@
     }
     .wrap{max-width:960px; margin:0 auto; padding:0 16px;}
     .brand{
-      display:flex; align-items:center; gap:14px;
+      display:flex; align-items:center; gap:0; /* sin imagen, sin hueco */
     }
-    .brand img{height:56px; width:auto; border-radius:10px; background:#fff; padding:4px}
     .brand h1{margin:0; font-size: clamp(20px, 3vw, 28px); font-weight:700;}
     .subtitle{margin:6px 0 0; color:#e6ecff; font-size:14px}
     main{padding:26px 0 42px;}
@@ -72,21 +71,15 @@
 </head>
 <body>
   <header>
-  <div class="wrap">
-    <div class="brand">
-      <!-- Aquí va tu logo -->
-      <img src="./1024.jpeg"
-     alt="Logo Jesús María"
-     width="56" height="56"
-     style="border-radius:10px;background:#fff;padding:4px;">
-      <div>
-        <h1>Eliminación de cuenta — Jesús María Conecta</h1>
-        <p class="subtitle">Solicitud para borrar tu cuenta y datos personales asociados a la app móvil</p>
+    <div class="wrap">
+      <div class="brand">
+        <div>
+          <h1>Eliminación de cuenta — Jesús María Conecta</h1>
+          <p class="subtitle">Solicitud para borrar tu cuenta y datos personales asociados a la app móvil</p>
+        </div>
       </div>
     </div>
-  </div>
-</header>
-
+  </header>
 
   <main class="wrap">
     <div class="card">
@@ -101,7 +94,7 @@
       <section class="card">
         <h2>Pasos para solicitar la eliminación</h2>
         <ol>
-          <li>Envía un correo a <a href="mailto:aplicacion@jesusmaria.gob.mx">aplicacion@jesusmaria.gob.m</a> con el asunto <strong>“Eliminar cuenta”</strong>.</li>
+          <li>Envía un correo a <a href="mailto:aplicacion@jesusmaria.gob.mx">aplicacion@jesusmaria.gob.mx</a> con el asunto <strong>“Eliminar cuenta”</strong>.</li>
           <li>Indica tu <strong>nombre completo</strong> y el <strong>correo electrónico</strong> con el que registraste tu cuenta.</li>
           <li>Si tienes un <strong>folio</strong> o identificador de usuario, inclúyelo para agilizar el proceso (opcional).</li>
           <li>Te confirmaremos la recepción y procesaremos tu solicitud en un máximo de <strong>15 días hábiles</strong>.</li>
@@ -149,3 +142,4 @@
   </footer>
 </body>
 </html>
+
